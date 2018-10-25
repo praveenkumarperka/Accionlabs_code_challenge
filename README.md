@@ -15,7 +15,6 @@ results = []
 mylist_length = rn.randint(8, 20)
 for list_items in range(1, mylist_length):
     mylist.append(rn.randint(0, mylist_length))
-# mylist = [1, 6, 2, 3, 4, 1, 7, 6, 4]
 # sorting the list for easy partitioning and to sum them up
 mylist.sort(reverse=True)
 
